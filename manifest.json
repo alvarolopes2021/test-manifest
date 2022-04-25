@@ -1,0 +1,42 @@
+{
+  "name": "HackerWeb",
+  "short_name": "HackerWeb",
+  "start_url": "192.168.93.58:8887",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A simply readable Hacker News app.",
+  "browser_action": {
+    "default_icon": {                // optional
+      "48": "telegram_48.png"     // optional
+    },
+    "default_title": "Test" // optional, shown in tooltip    
+  },
+  "icons": [
+	  {
+		"src": "telegram_48.png",
+		"sizes": "48x48",
+		"type": "image/png"
+	  }, {
+		"src": "telegram_72.png",
+		"sizes": "72x72",
+		"type": "image/png"
+	  }, 
+	  {
+		"src": "telegram_144.png",
+		"sizes": "144x144",
+		"type": "image/png"
+	  }, 
+	  {
+		"src": "telegram.png",
+		"sizes": "128x128",
+		"type": "image/png"
+	  }, 
+	  {
+		"src": "telegram_192.png",
+		"sizes": "192x192",
+		"type": "image/png"
+	  }
+  ]
+  
+}
